@@ -1,0 +1,47 @@
+.login-section {
+  display: flex;
+
+  height: calc(100vh - 8rem);
+  align-items: center;
+  justify-content: center;
+
+  .login {
+    width: 36rem;
+    height: 50rem;
+    background-color: $white;
+    padding: 0rem 3rem;
+    border-radius: 1rem;
+
+    &__title {
+      color: $black;
+      font-weight: 400;
+    }
+
+    .formulary {
+      input {
+        display: block;
+        width: 100%;
+        padding: 1.9rem 0.5rem;
+        border-radius: 5px;
+        margin-bottom: 1.2rem;
+        background-color: $grey;
+        font-size: 1.2rem;
+        padding-left: 1.2rem;
+      }
+
+      .password-link {
+        font-size: 1.2rem;
+        color: $strongBlue;
+      }
+    }
+
+    .link-account {
+      font-size: 1.3rem;
+      color: $black;
+      .signUp {
+        color: $orangeColor;
+        text-decoration: underline;
+      }
+    }
+  }
+}

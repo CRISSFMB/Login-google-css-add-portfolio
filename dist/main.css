@@ -352,6 +352,50 @@ template {
   border-radius: 2rem;
 }
 
+.btn-block {
+  display: block;
+}
+
+.color-black {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-login {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #b3d8ff;
+  color: white;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  border: none;
+}
+
+.btn-social {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #b3d8ff;
+  color: white;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border: none;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.blueLight {
+  background-color: #4387f4;
+}
+
+.blueStrong {
+  background-color: #2e5c99;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -373,6 +417,7 @@ body {
   background-color: rgba(111, 83, 175, 0.782);
   color: white;
   font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
 /******************************************Global Styles**********************************/
@@ -410,7 +455,6 @@ img {
 header {
   background-color: #007bff;
   height: 100vh;
-  padding-top: 1rem;
 }
 
 .nav {
@@ -473,6 +517,52 @@ header {
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.login-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 8rem);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.login-section .login {
+  width: 36rem;
+  height: 50rem;
+  background-color: white;
+  padding: 0rem 3rem;
+  border-radius: 1rem;
+}
+.login-section .login__title {
+  color: black;
+  font-weight: 400;
+}
+.login-section .login .formulary input {
+  display: block;
+  width: 100%;
+  padding: 1.9rem 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+  background-color: #eef3fb;
+  font-size: 1.2rem;
+  padding-left: 1.2rem;
+}
+.login-section .login .formulary .password-link {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+.login-section .login .link-account {
+  font-size: 1.3rem;
+  color: black;
+}
+.login-section .login .link-account .signUp {
+  color: #e9901c;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map*/
