@@ -4,6 +4,9 @@ html {
   font-size: 65.2%;
 }
 
+// * {
+//   border: 1px solid white;
+// }
 *,
 *:after,
 *::before {
@@ -16,6 +19,8 @@ body {
   line-height: 4rem;
   font-size: 1.6rem;
   background-color: rgba(111, 83, 175, 0.782);
+  color: $white;
+  font-family: "Poppins", sans-serif;
   // height: 100vh;
 }
 
@@ -26,9 +31,12 @@ body {
 }
 p {
   line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
 }
 a {
   text-decoration: none;
+  color: $white;
+  // font-family: "Open Sans", sans-serif;
 }
 
 ul {

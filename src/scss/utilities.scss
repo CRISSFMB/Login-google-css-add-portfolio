@@ -1,0 +1,9 @@
+.btn {
+  background-color: $white;
+  color: $strongBlue;
+  padding: 1rem 1.7rem;
+
+  &--rounded {
+    border-radius: 2rem;
+  }
+}

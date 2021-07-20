@@ -1,3 +1,42 @@
 header {
   background-color: $mainBlue;
+  height: 100vh;
+  padding-top: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 0 0.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 12rem;
+    @include desktop {
+      width: 13rem;
+    }
+    .svg-icon {
+      width: 3.5rem;
+      @include desktop {
+        width: 5rem;
+      }
+    }
+  }
+  .container-list {
+    display: none;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 29rem;
+    @include desktop {
+      display: flex;
+    }
+  }
 }

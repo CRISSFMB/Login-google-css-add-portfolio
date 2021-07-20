@@ -4,6 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <title>webpack default template</title>
   <link rel="stylesheet" href="main.css" />
 </head>
@@ -12,17 +18,20 @@
   <header class="header">
     <div class="container">
 
-      <nav>
+      <nav class="nav">
 
-        <span>ICON</span><span>Confetti</span>
-        <ul>
+        <div class="logo">
+          <!-- <i class="fas fa-radiation-alt"></i> -->
+          <img src="./assets/images/2308142_company_logo_search engine_website_yahoo_icon.svg" alt="icon"
+            class="svg-icon">
+          <span>Confetti</span>
+        </div>
 
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#">Sign In</a></li>
+        <ul class="container-list">
 
-          <a href="#" class="btn">
-            <Table>Try for Free</Table>
-          </a>
+          <li class="list"><a href="#pricing">Pricing</a></li>
+          <li class="list"><a href="#">Sign In</a></li>
+          <li class="list"><a href="#" class="btn btn--rounded">Try it free</a></li>
 
         </ul>
 
