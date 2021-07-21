@@ -30,6 +30,11 @@
   padding-bottom: 1.5rem;
   border: none;
   cursor: pointer;
+  transition: background-color 1s ease;
+
+  &:hover {
+    background-color: $BtnBlueStrong;
+  }
 }
 
 .btn-social {
